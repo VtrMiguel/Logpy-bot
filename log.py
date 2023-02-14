@@ -20,3 +20,7 @@ navegador.find_element(By.XPATH, ('//*[@id="password"]')).send_keys("senha123")
 #selecionando o id do botão para clicar
 time.sleep(5)
 navegador.find_element(By.XPATH, ('//*[@id="btnSubmit"]/p/div')).click()
+
+#só pra ter certeza que tudo deu certo!
+time.sleep(5)
+print("sucesso!")
