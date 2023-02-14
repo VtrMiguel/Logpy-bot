@@ -8,3 +8,7 @@ navegador = webdriver.Firefox()
 
 #abrindo o site desejado
 navegador.get("https://accounts.mlabs.io/accounts/sign_in?access_token=true")
+
+#selecionando o id do input para colocar a 'conta'
+time.sleep(7)
+navegador.find_element(By.XPATH, ('//*[@id="email"]')).send_keys("conta")
